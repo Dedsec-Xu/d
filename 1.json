@@ -1,0 +1,24 @@
+[
+    {
+      "Author": "aers, JHerig",
+      "Name": "NamePlateDebuffs",
+      "InternalName": "NamePlateDebuffs",
+      "AssemblyVersion": "0.5.1.0",
+      "Description": "Displays your debuffs on enemy nameplates.",
+      "ApplicableVersion": "any",
+      "RepoUrl": "https://github.com/jherig/NamePlateDebuffs",
+      "DalamudApiLevel": 5,
+      "LoadPriority": 0,
+      "IsHide": "False",
+      "IsTestingExclusive": "False",
+      "DownloadCount": 4830,
+      "CategoryTags": [
+        "UI",
+        "jobs"
+      ],
+      "LastUpdate": "1641262251",
+      "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/NamePlateDebuffs?isUpdate=False&isTesting=False&branch=api5",
+      "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/NamePlateDebuffs?isUpdate=False&isTesting=True&branch=api5",
+      "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/NamePlateDebuffs/latest.zip"
+    }  
+]

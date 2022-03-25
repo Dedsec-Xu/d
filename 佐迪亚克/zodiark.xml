@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="b473902c-38f3-40b3-bda8-79d05b46d149" Name="极佐迪亚克（By yoyokity &amp; 牙刷play）" Enabled="true">
+  <ExportedFolder Id="b473902c-38f3-40b3-bda8-79d05b46d149" Name="极佐迪亚克" Enabled="true">
     <Folders>
-      <Folder Id="2f373695-3b28-4753-a484-7dd522f14558" Name="画图(需要Morelog)" Enabled="true">
+      <Folder Id="2f373695-3b28-4753-a484-7dd522f14558" Name="画图" Enabled="true">
         <Folders>
           <Folder Id="c4c5e869-e975-4ae8-8cdc-0897ea6871ab" Name="秘纹*" Enabled="true">
             <Folders>
@@ -581,140 +581,120 @@
                 <Actions>
                   <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="cishu" VariableExpression="${var:cishu}+1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="2" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="A→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Placeholder" ExecutionDelayExpression="10" Description="D点第一次" DescriptionOverride="True">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="3" AuraImageMode="CenterImage" AuraName="星图1" AuraImage="https://s2.loli.net/2021/12/08/zVL3QqdiESowBm9.png" AuraXIniExpression="1227" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="中→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura" ExecutionDelayExpression="10">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00200010" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="星图1" AuraImage="https://s2.loli.net/2021/12/08/zVL3QqdiESowBm9.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="右→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="10000800" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="5" AuraImageMode="CenterImage" AuraName="星图1" AuraImage="https://s2.loli.net/2021/12/08/zVL3QqdiESowBm9.png" AuraXIniExpression="1227" AuraYIniExpression="205-200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="上→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00800040" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="6" AuraImageMode="CenterImage" AuraName="星图1" AuraImage="https://s2.loli.net/2021/12/08/zVL3QqdiESowBm9.png" AuraXIniExpression="1227-200/3" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="下→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00020001" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="7" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="A→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Placeholder" ExecutionDelayExpression="10" Description="C点第二次" DescriptionOverride="True">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="8" AuraImageMode="CenterImage" AuraName="星图2" AuraImage="https://s2.loli.net/2021/12/08/vZq6sbtyIMSBV8j.png" AuraXIniExpression="1227" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="中→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura" ExecutionDelayExpression="10">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00200010" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="9" AuraImageMode="CenterImage" AuraName="星图2" AuraImage="https://s2.loli.net/2021/12/08/vZq6sbtyIMSBV8j.png" AuraXIniExpression="1227" AuraYIniExpression="205-200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="上→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="10000800" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="10" AuraImageMode="CenterImage" AuraName="星图2" AuraImage="https://s2.loli.net/2021/12/08/vZq6sbtyIMSBV8j.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205+200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="左→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00800040" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="11" AuraImageMode="CenterImage" AuraName="星图2" AuraImage="https://s2.loli.net/2021/12/08/vZq6sbtyIMSBV8j.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="右→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00020001" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="12" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="A→" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Placeholder" ExecutionDelayExpression="10" Description="D点第三次" DescriptionOverride="True">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${cishu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="13" AuraImageMode="CenterImage" AuraName="星图3" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="中/右下" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura" ExecutionDelayExpression="10">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00200010" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="14" AuraImageMode="CenterImage" AuraName="星图3-2" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205+200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="中/右下" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00200010" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="15" AuraImageMode="CenterImage" AuraName="星图3" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="右/右下" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="10000800" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="16" AuraImageMode="CenterImage" AuraName="星图3-2" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205+200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="右/右下" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="10000800" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="17" AuraImageMode="CenterImage" AuraName="星图3" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227" AuraYIniExpression="205+200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="200" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="下/右上" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00800040" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="18" AuraImageMode="CenterImage" AuraName="星图3-2" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205-200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="200" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="下/右上" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00800040" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="19" AuraImageMode="CenterImage" AuraName="星图3" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227+200/3" AuraYIniExpression="205" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="右/上" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00020001" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="20" AuraImageMode="CenterImage" AuraName="星图3-2" AuraImage="https://s2.loli.net/2021/12/08/f5mkGTZ1LJKlDFt.png" AuraXIniExpression="1227" AuraYIniExpression="205-200/3" AuraWIniExpression="200" AuraHIniExpression="200" AuraOIniExpression="100" AuraTTLTickExpression="15*1000-${_sincems}" ListVariableOp="Push" ListVariableName="星图" ListVariableExpression="右/上" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:cishu}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${count}" ExpressionTypeL="String" ExpressionR="00020001" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="true" Grouping="Or">

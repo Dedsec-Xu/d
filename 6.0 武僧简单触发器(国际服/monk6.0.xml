@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="13198b6d-593f-4425-a16f-2a0b728f805a" Name="monk 6.0" Enabled="true">
+    <Folders>
+      <Folder Id="09310869-6f6d-425a-8502-cf2265b15614" Name="resource" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="false" Name="获取资源" Id="01d9fe6b-db41-4993-a6b8-969f5ab26381" RegularExpression="!howmnk">
+            <Actions>
+              <Action OrderNumber="1" VariableOp="SetString" VariableName="comboimg" VariableExpression="https://raw.githubusercontent.com/Dedsec-Xu/mirror/main/ComboGIFgreen.gif" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" UseTTSTextExpression="monk on" UseTTSRateExpression="5" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" AuraImageMode="Zoom" AuraName="破碎拳" AuraImage="${var:comboimg}" AuraXIniExpression="1045" AuraYIniExpression="1202" AuraWIniExpression="46" AuraHIniExpression="46" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" Enabled="False" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Demo" Id="be11c7ef-d0ea-407f-9291-e3f18c2c4486" RegularExpression="^.{14} ActionEffect 15:.{8}:Delete Scholar:42:">
+            <Actions>
+              <Action OrderNumber="1" AuraImageMode="Zoom" AuraName="demo" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1126" AuraYIniExpression="1203" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" VariableOp="SetString" VariableName="combo1" VariableExpression="https://raw.githubusercontent.com/Dedsec-Xu/mirror/main/ComboGIFgreen.gif" TextAuraFontSize="9" TextAuraFontName="宋体" Enabled="False" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" AuraImageMode="Zoom" AuraName="demo" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1126" AuraYIniExpression="1248" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" UseTTSTextExpression="破碎" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura" ExecutionDelayExpression="12000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="You use Bootshine" Id="76b4fcfe-9c03-49fc-9073-ab1b1ae3e10e" RegularExpression="^.{14} ActionEffect 15:.{8}:Delete Scholar:35:">
+            <Actions>
+              <Action OrderNumber="1" AuraImageMode="Zoom" AuraName="opo" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1043" AuraYIniExpression="1202" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Twin" Id="b2fee9fc-d540-4e7e-8d35-574017d3721d" RegularExpression="^.{14} ActionEffect 15:.{8}:Delete Scholar:3D:">
+            <Actions>
+              <Action OrderNumber="1" AuraImageMode="Zoom" AuraName="rap" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1086" AuraYIniExpression="1248" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" AuraImageMode="Zoom" AuraName="rap" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1087" AuraYIniExpression="1202" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura" ExecutionDelayExpression="6700">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Dragon" Id="90c2d9be-e6a1-4afa-a9ea-b235734c0643" RegularExpression="^.{14} ActionEffect 15:.{8}:Delete Scholar:4A:">
+            <Actions>
+              <Action OrderNumber="1" AuraImageMode="Zoom" AuraName="opo" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1047" AuraYIniExpression="1248" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="You lose the effect of Leaden Fist." Id="e30c09b3-32b7-4f40-8452-7fc271a7301b" RegularExpression="You lose the effect of Leaden Fist.">
+            <Actions>
+              <Action OrderNumber="1" AuraImageMode="Zoom" AuraName="opo" AuraImage="C:\Users\Wilson_Xu\Documents\Zoom\ComboGIFgreen (1).gif" AuraXIniExpression="1043" AuraYIniExpression="1202" AuraWIniExpression="41" AuraHIniExpression="41" AuraOIniExpression="100" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="f378b6f9-2a20-406d-a946-236ba95f4524" Name="recycle" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="nomnk" Id="0591279c-c3c0-4647-b818-2fb9aa784592" RegularExpression="!nomnk">
+            <Actions>
+              <Action OrderNumber="1" AuraOp="DeactivateAllAura" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Aura">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+        </Triggers>
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
